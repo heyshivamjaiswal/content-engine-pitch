@@ -50,9 +50,6 @@ def run_site_audit(target_url):
     status_message = data.get("status_message", "")
     if "verify your account" in status_message.lower():
         print("BLOCKED: DataForSEO requires account verification (phone or minimum")
-        print("$50 deposit) before returning data, even in sandbox mode. This is an")
-        print("account-level gate on their side, not a code or auth failure, the")
-        print("request itself was accepted and correctly formed.")
         return data
 
     tasks = data.get("tasks", [])
