@@ -2,7 +2,7 @@
 
   logged into OpenSEO and went through it . Here is where I landed.
 
- # What OpenSEO is about
+ ## What OpenSEO is about
  
 OpenSEO does not generate any content at all, it only researches, tracks and audits. So this was never really a "replace our engine" question, there is nothing in OpenSEO that competes with our blog generation, Reddit sourcing or multi client automation.
  
