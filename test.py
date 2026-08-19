@@ -1,3 +1,19 @@
+
+"""
+test.py
+ 
+Small proof of concept showing we can call DataForSEO's API directly,
+without going through OpenSEO at all. Hits their free Sandbox
+environment.
+ 
+Note: DataForSEO blocks real data behind account verification, phone
+or $50 deposit, even in sandbox. Requests below are correctly formed,
+check the raw response, just gated at account level.
+ 
+To run: pip install requests, set DFS_LOGIN and DFS_PASSWORD below or
+as environment variables, then python test.py
+"""
+
 BASE_URL = "https://sandbox.dataforseo.com/v3"
 
 
